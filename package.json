@@ -1,0 +1,19 @@
+{
+	"name": "coursework",
+	"version": "0.0.1",
+	"description": "Database coursework 2025",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"start": "node --watch app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Zhukov Vladyslav",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.5.0",
+		"express": "^5.1.0",
+		"pg": "^8.15.6"
+	}
+}
